@@ -12,12 +12,11 @@ abstract class Ordi{
         System.out.println("Ordi");
         return true;
     }
-	//sol1 : faire une méthode abstract 
+	//sol : faire une méthode abstract 
 	//public abstract boolean equiv(Montage m, String s);
 }
 class Montage extends Ordi{
-	// sol2 : bien faire la rédifinition 
-	//public boolean equiv(Ordi o,String s){...}
+	
       public boolean equiv(Montage m, String s){
         System.out.println("Montage");
         return false;
